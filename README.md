@@ -5,11 +5,14 @@ Python script that uses Google Translate to translate text in a PDF file
 
 # Prerequisties:
 
-Google APIs:
-* Translate for Python
-* credentials to access APIs
+Google Cloud SDK
+* Follow instructions to download and install here: https://cloud.google.com/sdk/
 
-Python module: pdftotext
+Google API Client Library for Python
+* Follow instructions to install here: https://developers.google.com/api-client-library/python/
+
+pdftotext as a Python module
+* Install using PIP: https://pypi.org/project/pdftotext/
 
 Python standard libraries: 
 * argparse
@@ -17,13 +20,13 @@ Python standard libraries:
 
 # How To Use:
 
-1. Install pdftotext as a Python module
-2. Install/get Google API SDK
-3. Set your Google API credentials
+1. Complete the Prerequisites above
+2. Acquire/generate Google API credentials and set them 
 4. Execute the main.py script according to the following:
-	python3 main.py <PDF input file> <target language> <name of output file>
+
+	python3 main.py \<PDF input file\> \<target language\> \<name of output file\>
 
 # Sample:
 
-There is a sample PDF file in /sample directory containing French text of The Raven
+A PDF file of French text of the Edgar Allen Poe poem "The Raven" is available in the /sample directory
 
