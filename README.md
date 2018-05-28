@@ -22,7 +22,7 @@ pdftotext as a Python module
 2. Acquire/generate Google API credentials and set them 
 3. Execute the main.py script according to the following:
 
-	`python3 main.py \<PDF input file\> \<target language\> \<name of output file\>`
+	`python3 main.py <PDF_input_file> <target_language> <name_of_output_file>`
 
 ## Expected output:
 
@@ -30,8 +30,8 @@ pdftotext as a Python module
 - The named output file will contain all the translated text with a Page number heading correlated to the page found in the PDF file
 
 
-# Sample:
+# Sample data:
 
 The `/sample` directory contains a PDF file that can be used for testing
-The file has French text of an Edgar Allen Poe poem titled "The Raven"
 
+The file has French text of an Edgar Allen Poe poem titled "The Raven"
